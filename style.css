@@ -1,0 +1,126 @@
+@font-face {
+	font-family: LatinWeb;
+	src: url("Fonts/lmroman12-regular.otf") format("opentype");
+}
+ 
+@font-face {
+	font-family: LatinWeb;
+	font-weight: bold;
+	src: url("Fonts/lmroman10-bold.otf") format("opentype");
+}
+
+@font-face {
+	font-family: LatinWebSans;
+	font-weight: bold;
+	src: url("Fonts/lmsans12-regular.otf") format("opentype");
+}
+
+body{
+	background: url(http://www.lernerslearners.com/wp-content/uploads/sites/4/2013/10/14652865-blue-numbers-mathematical-math-background.jpg);
+}
+
+#header{
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+	margin: 20px;
+	font-family: LatinWeb;
+}
+
+#box-top{
+	margin: 0;
+	padding: 10px;
+	width: 100%;
+	background: rgba(70, 12, 12, 0.3);
+	border-radius: 2px 2px 0px 0px;
+	height: 20px;
+	color: #194eb0;
+	font-size: 12px;
+	font-family: LatinWeb;
+}
+
+#chat-text{
+	width: 100%;
+	max-width: 700px;
+	text-align: center;
+	margin: 0 auto;
+	min-height: 350px;
+	background: rgba(255, 255, 255, 0.9);
+	border: 3px solid rgba(55, 12, 12, 0.25);
+	border-radius: 5px;
+		
+}
+
+#chat-log{
+	max-height: 450px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+#chat-table{
+	border-collapse: collapse;
+}
+
+#send-box{
+	background: rgba(31, 104, 186, 0.33)
+}
+
+#username{
+	width: 80px;
+	background: rgba(255, 255, 255, 0.5);
+	
+}
+#message{
+	width: 65%;
+	margin: 0;
+	height: auto;
+	padding-left: 0;
+	background: rgba(255, 255, 255, 0.5);
+}
+#username, #message{
+	height: 50px;
+	font-size: 14px;
+	font-family: LatinWeb;
+	display: inline-block;
+ vertical-align: bottom; 
+	
+}
+
+.username{
+	color: #bb2a2a;
+	font-weight: bold;	
+	width: 150px;
+	padding: 10px;
+	vertical-align: top;
+	border-right:1px solid rgba(0, 0, 0, 0.24);
+	font-family: LatinWebSans;
+
+}
+
+.message-entry{
+	width: 100%;
+	margin: 0; padding: 0;
+	
+}
+
+.message{
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 25px;
+	font-family: LatinWeb;
+	
+}
+
+.tex{
+	margin: 15px auto;
+	display: block;
+	clear: both;
+}
+
+#send, #tex-button{
+	background: white;
+	height: 35px;
+	width: 40px;
+	margin-bottom: 10px;
+}

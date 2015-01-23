@@ -1,0 +1,38 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="style.css" title="stylesheet" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+		<h1 id="header">TeX Talk</h1>
+		<div id="chat-text">
+			<p id="box-top">Enter LaTeX with \begin{equation} and \end{equation}</p>
+			<div id="send-box">
+				<input id="username" placeholder="Username"/>
+				<textarea  id="message" rows="10" type="text" placeholder="Enter your message"></textarea>
+				<button id="tex-button" onclick="addTeX()">TeX</button>
+				<button id="send" onclick="return doSend()">Send</button>
+
+			</div>
+			<div id="chat-log">
+				<table id="chat-table">
+				</table>
+			</div>
+			
+		</div>
+	</body>
+
+
+
+<!-- Include the PubNub Library -->
+<script src="https://cdn.pubnub.com/pubnub.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+<script src="main.js"></script>
+ 
+<!-- Instantiate PubNub -->
+<script type="text/javascript">
+
+	
+	
+</script>
